@@ -1,0 +1,4 @@
+theme ="github_dark_tritanopia"
+
+[editor]
+line-number = "relative"
