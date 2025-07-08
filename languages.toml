@@ -5,6 +5,13 @@ formatter = { command = "prettier", args = ["--stdin-filepath", "file.js"] }
 auto-format = true
 indent = { tab-width = 2, unit = "  " }
 
+[[language]]
+name="go"
+language-servers = ["gopls"]
+
 [typescript-language-server]
 command = "typescript-language-server"
 args = ["--stdio"]
+
+[language-server.gopls]
+command = "gopls"
