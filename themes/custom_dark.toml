@@ -7,7 +7,7 @@ inherits = "github_dark"
 
 # modifiers
 "comment" = { fg = "closed.emphasis",  modifiers = ["italic"] }
-"string" = { fg = "scale.blue.1",  modifiers = ["italic"] }
+"type" = { fg = "scale.red.2",  modifiers = ["italic"] }
 
 [palette]
 "accent.emphasis" = "#1f6feb"
