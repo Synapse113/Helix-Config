@@ -6,3 +6,6 @@ end-of-line-diagnostics = "hint"
 
 [editor.inline-diagnostics]
 cursor-line = "error"
+
+[keys.normal]
+D = ["ensure_selections_forward", "extend_to_line_end", "delete_selection"]
