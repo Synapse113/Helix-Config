@@ -1,3 +1,4 @@
+# Javascript
 [[language]]
 name="javascript"
 language-servers = ["typescript-language-server"]
@@ -5,6 +6,7 @@ formatter = { command = "prettier", args = ["--stdin-filepath", "file.js"] }
 auto-format = true
 indent = { tab-width = 2, unit = "  " }
 
+# Go
 [[language]]
 name="go"
 language-servers = ["gopls"]
@@ -15,3 +17,14 @@ args = ["--stdio"]
 
 [language-server.gopls]
 command = "gopls"
+
+# PHP
+[[language]]
+name = "php"
+language-servers = [ "intelephense" ]
+indent={ tab-width = 2, unit ="  " }
+
+[language-server.intelephense]
+command = "intelephense"
+args = ["--stdio"]
+file-types = [ "php", "inc" ]
