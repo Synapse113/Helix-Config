@@ -6,14 +6,14 @@ formatter = { command = "prettier", args = ["--stdin-filepath", "file.js"] }
 auto-format = true
 indent = { tab-width = 2, unit = "  " }
 
+[typescript-language-server]
+command = "typescript-language-server"
+args = [ "--stdio" ]
+
 # Go
 [[language]]
 name="go"
-language-servers = ["gopls"]
-
-[typescript-language-server]
-command = "typescript-language-server"
-args = ["--stdio"]
+language-servers = [ "gopls" ]
 
 [language-server.gopls]
 command = "gopls"
@@ -26,5 +26,14 @@ indent={ tab-width = 2, unit ="  " }
 
 [language-server.intelephense]
 command = "intelephense"
-args = ["--stdio"]
+args = [ "--stdio" ]
 file-types = [ "php", "inc" ]
+
+# Elixir
+[[language]]
+name = "elixir"
+language-servers = [ "elixir-ls" ]
+indent = { tab-width = 2, unit = "  " }
+
+[language-server.elixir-ls]
+command = "elixir-ls"
