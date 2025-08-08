@@ -1,0 +1,7 @@
+inherits = "catppuccin_macchiato"
+
+# modifiers
+# "comment" = { fg = "closed.emphasis",  modifiers = ["italic"] }
+# "type" = { fg = "scale.red.2",  modifiers = ["italic"] }
+"ui.background" = { }
+

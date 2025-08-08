@@ -1,0 +1,7 @@
+inherits = "nord"
+
+# modifiers
+# "comment" = { fg = "closed.emphasis",  modifiers = ["italic"] }
+"type" = { fg = "#8fbcbb",  modifiers = ["italic"] }
+
+"ui.background" = { }
