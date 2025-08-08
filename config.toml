@@ -1,8 +1,8 @@
-theme ="custom_dark"
+theme = "nord"
 
 [editor]
 line-number = "relative"
-# end-of-line-diagnostics = "hint"
+end-of-line-diagnostics = "hint"
 
 [editor.inline-diagnostics]
 cursor-line = "error"
